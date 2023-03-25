@@ -26,7 +26,7 @@ class ContactListService extends GetConnect {
         final List<dynamic> usersData = jsonData['results'];
         return usersData.map((json) => userModel.fromJson(json)).toList();
       } else {
-        throw Exception('Failed to load users');
+        throw 'Failed to fetch data from API';
       }
     } on SocketException {
       print("You are not connected to internet");

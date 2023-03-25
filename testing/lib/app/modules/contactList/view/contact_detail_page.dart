@@ -2,6 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:testing/util/color.dart';
 
 class ContactDetailPage extends StatelessWidget {
   final String imageUrl;
@@ -78,7 +79,7 @@ class ContactDetailPage extends StatelessWidget {
                           style: TextStyle(
                             fontSize: 14.sp,
                             fontWeight: FontWeight.w600,
-                            color: const Color(0xff000000),
+                            color: COLOR_OOOOOO,
                             fontFamily: 'IBMPlexSansThai',
                           ),
                         ),
@@ -87,7 +88,7 @@ class ContactDetailPage extends StatelessWidget {
                           style: TextStyle(
                             fontSize: 14.0.sp,
                             fontWeight: FontWeight.w400,
-                            color: const Color(0xff000000),
+                            color: COLOR_OOOOOO,
                             fontFamily: 'IBMPlexSansThai',
                           ),
                         ),
@@ -102,7 +103,7 @@ class ContactDetailPage extends StatelessWidget {
                           style: TextStyle(
                             fontSize: 14.sp,
                             fontWeight: FontWeight.w600,
-                            color: const Color(0xff000000),
+                            color: COLOR_OOOOOO,
                             fontFamily: 'IBMPlexSansThai',
                           ),
                         ),
@@ -111,7 +112,7 @@ class ContactDetailPage extends StatelessWidget {
                           style: TextStyle(
                             fontSize: 14.0.sp,
                             fontWeight: FontWeight.w400,
-                            color: const Color(0xff000000),
+                            color: COLOR_OOOOOO,
                             fontFamily: 'IBMPlexSansThai',
                           ),
                         ),
